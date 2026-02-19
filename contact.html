@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav-bar-background">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form class="row g-3 bg-dark text-light p-4 rounded needs-validation" novalidate>
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Your name" required>
+                    <div class="invalid-feedback">
+                        Your name.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com" required>
+                    <div class="invalid-feedback">
+                        Your email.
+                    </div>
+                </div>
+                <div class="col-5">
+                    <label for="inputSubject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="inputSubject" placeholder="Your subject" required>
+                    <div class="invalid-feedback">
+                        Subject.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="4" placeholder="Leave your message here."
+                        required></textarea>
+                    <div class="invalid-feedback">
+                        Please leave a message.
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-outline-light px-4">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <footer class="text-center py-4">
+        <p>&copy; 2026 Lorem Ipsum Portfolio</p>
+    </footer>
+</body>
+
+</html>
